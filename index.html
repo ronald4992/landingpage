@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#27301f">
+    <meta name="description" content="Descubre las criaturas mágicas de Harry Potter: hipogrifos, nifflers, thestrals y mucho más.">
+    <title>Mundo de criaturas mágicas | Bestiario de Harry Potter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" id="inicio" data-section="header">
+      <a class="brand" href="#inicio" aria-label="Mundo de criaturas mágicas, inicio">
+        <span class="brand__mark" aria-hidden="true"><span>MCM</span></span>
+        <span class="brand__name">Mundo de<br>criaturas mágicas</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span class="menu-toggle__icon" aria-hidden="true"></span><span class="sr-only">Abrir navegación</span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+        <a href="#beneficios">El atlas</a><a href="#como-funciona">El recorrido</a><a href="#faq">Preguntas</a>
+      </nav>
+      <a class="header-link" href="#explorar">Abrir el atlas <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" aria-labelledby="hero-title" data-section="hero">
+        <img class="hero__image" src="/assets/forest.jpg" alt="Un bosque antiguo envuelto en bruma, al comienzo de un sendero." fetchpriority="high">
+        <div class="hero__shade" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="eyebrow hero__eyebrow"><span></span> El bestiario del mundo mágico</p>
+          <h1 id="hero-title">Criaturas mágicas.<br>Un mundo por descubrir.</h1>
+          <p class="hero__intro">De Buckbeak el hipogrifo a Fawkes el fénix: descubre las criaturas que dan vida al universo de Harry Potter.</p>
+          <a class="button button--gold" href="#beneficios">Explorar criaturas <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero__crest" aria-hidden="true">
+          <span class="hero__crest-top">BESTIARIO · HOGWARTS Y MÁS ALLÁ</span>
+          <span class="hero__crest-grid"><span>Hipogrifo</span><span>Fénix</span><span>Niffler</span><span>Thestral</span><span class="hero__crest-mark">✦</span></span>
+          <span class="hero__crest-bottom">MUNDO DE CRIATURAS MÁGICAS</span>
+        </div>
+        <p class="hero__caption">Guía de criaturas mágicas <span>Vol. 01</span></p>
+      </section>
+
+      <section class="benefits section-wrap" id="beneficios" aria-labelledby="benefits-title" data-section="beneficios">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow--gold">Un universo lleno de vida</p>
+          <h2 id="benefits-title">Un bestiario lleno<br>de seres extraordinarios.</h2>
+          <p class="section-heading__note">Desde los terrenos de Hogwarts hasta los rincones más remotos: descubre las criaturas más queridas del mundo mágico.</p>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit-item">
+            <img class="benefit-item__image" src="/assets/hippogriff-reference.jpg" alt="Caballo blanco galopando entre árboles, referencia visual para un hipogrifo." loading="lazy" width="1000" height="666">
+            <div class="benefit-item__copy"><span class="benefit-icon" aria-hidden="true">✧</span><p class="benefit-item__tag">FICHA 01 · HIPOGRIFO</p><h3>Buckbeak y los hipogrifos</h3><p>Orgullosos y majestuosos: una reverencia respetuosa puede ser el comienzo de una gran amistad.</p></div>
+          </article>
+          <article class="benefit-item">
+            <img class="benefit-item__image" src="/assets/niffler-reference.jpg" alt="Zorro en un paisaje nevado, referencia visual para un pequeño buscador de tesoros." loading="lazy" width="1000" height="666">
+            <div class="benefit-item__copy"><span class="benefit-icon" aria-hidden="true">⌖</span><p class="benefit-item__tag">FICHA 02 · CAZATESOROS</p><h3>Nifflers: tras el brillo</h3><p>Su debilidad por todo lo brillante convierte cualquier búsqueda de monedas en una aventura.</p></div>
+          </article>
+          <article class="benefit-item">
+            <img class="benefit-item__image" src="/assets/phoenix-reference.jpg" alt="Ave azul posada en una rama, referencia visual para el fénix Fawkes." loading="lazy" width="1000" height="668">
+            <div class="benefit-item__copy"><span class="benefit-icon" aria-hidden="true">❧</span><p class="benefit-item__tag">FICHA 03 · FÉNIX</p><h3>Fawkes y los fénix</h3><p>Leales y capaces de renacer de sus cenizas, son símbolo de esperanza y renovación.</p></div>
+          </article>
+        </div>
+        <p class="creature-note"><span aria-hidden="true">☾</span> En el Bosque Prohibido también acechan los thestrals: caballos alados que solo algunas personas pueden ver.</p>
+      </section>
+
+      <section class="cta-banner" id="explorar" aria-labelledby="explore-title" data-section="cta">
+        <div class="cta-banner__seal" aria-hidden="true">MCM</div>
+        <div><p class="eyebrow">Abre el bestiario</p><h2 id="explore-title">¿Cuál criatura mágica quieres conocer?</h2></div>
+        <a class="button button--paper" href="#como-funciona">Conocer el mundo mágico <span aria-hidden="true">→</span></a>
+      </section>
+
+      <section class="how section-wrap" id="como-funciona" aria-labelledby="how-title" data-section="explicacion">
+        <div class="how__intro">
+          <p class="eyebrow eyebrow--gold">Explora el bestiario</p>
+          <h2 id="how-title">De las páginas<br>a la magia.</h2>
+          <p>Una guía para reconocer criaturas, conocer sus historias y descubrir qué las conecta con el mundo mágico.</p>
+          <a class="text-link" href="#testimonios">Leer impresiones de fans <span aria-hidden="true">↓</span></a>
+        </div>
+        <ol class="steps-list">
+          <li><span class="step-number">01</span><div><h3>Recorre Hogwarts</h3><p>Asómate a sus terrenos, al Bosque Prohibido y al lago junto al castillo.</p></div></li>
+          <li><span class="step-number">02</span><div><h3>Conoce a sus criaturas</h3><p>Hipogrifos, fénix, nifflers, thestrals y muchos más seres mágicos.</p></div></li>
+          <li><span class="step-number">03</span><div><h3>Descubre sus historias</h3><p>Explora qué hace especial a cada criatura y cómo se relaciona con el mundo mágico.</p></div></li>
+        </ol>
+      </section>
+
+      <section class="testimonials" id="testimonios" aria-labelledby="voices-title" data-section="testimonios">
+        <div class="testimonials__heading"><p class="eyebrow eyebrow--gold">Desde el mundo mágico</p><h2 id="voices-title">Historias que despiertan<br>la imaginación.</h2></div>
+        <div class="quote-grid">
+          <figure class="quote"><blockquote>“Buckbeak siempre me ha fascinado: imponente, noble y nada fácil de impresionar.”</blockquote><figcaption><span class="quote__initial" aria-hidden="true">M</span><span><strong>Mariana</strong><small>Fan del mundo mágico</small></span></figcaption></figure>
+          <figure class="quote"><blockquote>“Ahora entiendo por qué un niffler y una bolsa de monedas nunca son buena combinación.”</blockquote><figcaption><span class="quote__initial" aria-hidden="true">I</span><span><strong>Isaac</strong><small>Lector y explorador</small></span></figcaption></figure>
+          <figure class="quote"><blockquote>“Me encanta descubrir criaturas menos conocidas y aprender qué las hace especiales.”</blockquote><figcaption><span class="quote__initial" aria-hidden="true">S</span><span><strong>Sofía</strong><small>Amante de la fantasía</small></span></figcaption></figure>
+        </div>
+        <p class="testimonials__note">Testimonios de ejemplo para esta maqueta.</p>
+      </section>
+
+      <section class="second-cta" aria-labelledby="second-cta-title" data-section="cta-2">
+        <div class="second-cta__copy"><p class="eyebrow">Tu próxima aventura empieza aquí</p><h2 id="second-cta-title">Descubre un mundo<br>lleno de criaturas mágicas.</h2><a class="button button--gold" href="#faq">Explorar el bestiario <span aria-hidden="true">→</span></a></div>
+        <div class="second-cta__art"><img src="/assets/forbidden-forest.jpg" alt="Un ciervo entre árboles frondosos del bosque." loading="lazy" width="1200" height="1981"><span class="second-cta__art-label">El Bosque Prohibido · Registro 07</span></div>
+      </section>
+
+      <section class="faq section-wrap" id="faq" aria-labelledby="faq-title" data-section="faq">
+        <div class="faq__heading"><p class="eyebrow eyebrow--gold">Antes de cruzar</p><h2 id="faq-title">Preguntas<br>de otro mundo.</h2><p>¿Te queda alguna duda? Aquí empiezan las respuestas.</p></div>
+        <div class="faq-list">
+          <details><summary>¿Qué criaturas aparecen en la página?<span aria-hidden="true"></span></summary><p>Encontrarás hipogrifos como Buckbeak, fénix como Fawkes, nifflers y thestrals, entre otras criaturas del mundo de Harry Potter.</p></details>
+          <details><summary>¿Es un sitio oficial de Harry Potter?<span aria-hidden="true"></span></summary><p>No. Es un proyecto fan no oficial y no está afiliado ni patrocinado por los titulares de la franquicia.</p></details>
+          <details><summary>¿Puedo usar esta guía desde el móvil?<span aria-hidden="true"></span></summary><p>Sí. La página se adapta a pantallas pequeñas y se puede recorrer con teclado.</p></details>
+          <details><summary>¿Puedo sugerir otra criatura?<span aria-hidden="true"></span></summary><p>La guía está preparada para crecer con nuevas fichas y categorías de criaturas mágicas.</p></details>
+        </div>
+      </section>
+
+      <section class="pre-footer" aria-labelledby="prefooter-title" data-section="pre-footer">
+        <p class="eyebrow">La magia sigue ahí fuera</p><h2 id="prefooter-title">Cada criatura guarda<br>una historia.</h2><a class="button button--paper" href="#inicio">Volver al comienzo <span aria-hidden="true">↑</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-section="footer">
+      <a class="brand brand--footer" href="#inicio" aria-label="Mundo de criaturas mágicas, volver al inicio"><span class="brand__mark" aria-hidden="true"><span>MCM</span></span><span class="brand__name">Mundo de<br>criaturas mágicas</span></a>
+      <p class="site-footer__motto">Un universo mágico por descubrir.</p>
+      <nav class="footer-nav" aria-label="Enlaces del pie de página"><a href="#beneficios">El atlas</a><a href="#como-funciona">El recorrido</a><a href="#faq">Preguntas frecuentes</a></nav>
+      <p class="site-footer__legal">Proyecto fan no oficial. Harry Potter y sus personajes pertenecen a sus respectivos titulares. Sin afiliación ni patrocinio. Fotografías de referencia: Unsplash; no son arte oficial.</p>
+    </footer>
+  </body>
+</html>
